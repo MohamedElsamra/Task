@@ -1,0 +1,63 @@
+/* Start Variables */
+:root {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* End Variables */
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Desktop View Width */
+
+@media (min-width: 376px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Start Components  */
+
+.p-0 {
+    padding: 0;
+}
+
+.mg-l {
+    margin-left: 200px;
+}
+
+.c-gv {
+    color: var(--Grayish-Violet);
+}
+
+.fw-b {
+    font-weight: bold;
+}
+
+.bc-dv {
+    background-color: var(--Dark-Violet);
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.b-short {
+    border: 10px solid var(--Dark-Violet);
+}
+
+.b-w {
+    width: 55px;
+}
+
+/* End Components  */
